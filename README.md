@@ -15,7 +15,7 @@ This document provides instructions for compiling, installing, and using the cus
 
 **Installing the UDAF in MySQL**
 * Launch the MySQL server and log in using a user account with sufficient privileges to create functions.
-* Create the UDAF in MySQL by executing the following SQL command: **CREATE AGGREGATE FUNCTION Function_Name RETURNS STRING SONAME 'file_name.so';** (In Place of STRING, We can use REAL for Double/Integer)
+* Create the UDAF in MySQL by executing the following SQL command: **CREATE AGGREGATE FUNCTION Function_Name RETURNS STRING SONAME 'file_name.so';** (In Place of STRING, We can use REAL for Double/Integer return values.)
 * Replace Function_Name with the desired name for your UDAF and file_name.so with the actual name of your compiled shared object file.
 
 **Usage**
