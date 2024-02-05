@@ -1,4 +1,4 @@
-**MySQL User-Defined Aggregate Function (UDAF)**
+**MySQL User-Defined Function (UDF) and User-Defined Aggregate Function (UDAF)**
 
 This document provides instructions for compiling, installing, and using the custom MySQL User-Defined Aggregate Function (UDAF). This UDAF is implemented in C++ and can be used to perform specialized aggregate operations in MySQL.
 
